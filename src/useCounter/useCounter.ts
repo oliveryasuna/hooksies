@@ -1,4 +1,4 @@
-import {UseCounterResult} from './useCounter.result';
+import type {UseCounterResult} from './useCounter.result';
 import {useState} from 'react';
 import {useStableFn} from '../useStableFn';
 
