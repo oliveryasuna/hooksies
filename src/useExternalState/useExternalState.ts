@@ -32,7 +32,7 @@ const useExternalState = (<T>(providerFn: (() => (T | undefined | Promise<T | un
               setState(result);
             }
           } catch(err: unknown) {
-            console.error(`Failed to execute provider: ${JSON.stringify(err)}`);
+            console.error('Failed to execute provider:', err);
           }
         });
 
